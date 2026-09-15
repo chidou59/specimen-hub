@@ -1,0 +1,66 @@
+# ==========================
+# 核心忽略规则
+# ==========================
+
+# 1. 忽略所有 .exe 文件 (无论在哪个文件夹，包括根目录)
+*.exe
+
+# 2. 忽略 PyInstaller 打包生成的临时文件和配置
+build/
+dist/
+*.spec
+
+# 3. 忽略 Python 编译产生的垃圾文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. 忽略虚拟环境 (非常重要，不要上传几百兆的库文件)
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================
+# 用户数据与隐私保护
+# ==========================
+
+# 忽略用户的本地配置文件
+app_settings.json
+config.ini
+
+# 忽略本地生成的配置文件夹
+.sample_manager_config/
+
+# 忽略本地产生的实验数据文件夹 (如果有)
+My_Experiments_Data/
+data/
+
+# ==========================
+# 编辑器与系统文件
+# ==========================
+
+# PyCharm 配置
+.idea/
+
+# VS Code 配置
+.vscode/
+
+# Windows/Mac 系统缩略图缓存
+Thumbs.db
+.DS_Store
+[Dd]esktop.ini
+
+# AI/context exports and local developer notes
+project_context.txt
+
+# Test and analysis caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local exports
+output/
+results/
+
+build_tool.py
