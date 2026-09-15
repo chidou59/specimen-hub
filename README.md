@@ -6,6 +6,10 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 ![CI](https://github.com/chidou59/specimen-hub/actions/workflows/ci.yml/badge.svg)
 
+<p align="center">
+  <img src="docs/assets/readme-hero.png" alt="项目、试样、实验数据与对比图表的层级化管理插图" width="100%" />
+</p>
+
 ## 📖 项目简介 (Introduction)
 
 **试样数据管理平台** 是一款**结构化、可视化、交互式**的解决方案。能够**可视化**清晰管理数据，并**自动生成各类图表**。大大节省整理excel、照片、手写记录以及数据处理的时间。
